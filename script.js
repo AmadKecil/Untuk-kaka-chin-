@@ -18,7 +18,7 @@ function kembaliKeWA() {
     const nomorWA = "6283168457106"; 
     
     // Pesan otomatis yang akan langsung muncul di kolom chat dia
-    const pesan = encodeURIComponent("Maaf ya kaka chin 😄😄");
+    const pesan = encodeURIComponent("Aku akan menerima 3 pesan sebelum aku blok lagi, suatu saat bakal gw buka lagi");
     
     // Perintah untuk membuka WhatsApp secara otomatis
     window.location.href = `https://wa.me/${nomorWA}?text=${pesan}`;
