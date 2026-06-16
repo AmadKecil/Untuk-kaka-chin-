@@ -15,7 +15,7 @@ function pindahLayer(nomorLayer) {
 function kembaliKeWA() {
     // ⚠️ SILAKAN GANTI nomor di bawah ini dengan nomor WhatsApp kamu sendiri!
     // Gunakan kode negara 62 (sebagai pengganti angka 0 di depan).
-    const nomorWA = "6283168457106"; 
+    const nomorWA = "6285725707064"; 
     
     // Pesan otomatis yang akan langsung muncul di kolom chat dia
     const pesan = encodeURIComponent("Aku akan menerima 3 pesan sebelum aku blok lagi, suatu saat bakal gw buka lagi");
