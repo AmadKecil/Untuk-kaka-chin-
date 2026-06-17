@@ -33,7 +33,7 @@ body {
     height: auto;
     margin-bottom: -1px;    /* Menarik gambar ke bawah sedikit agar menempel dengan kotak */
     position: relative;
-    z-index: 50;             /* Membuat gambar berada di lapisan atas bayangan kotak */
+    z-index: 10;             /* Membuat gambar berada di lapisan atas bayangan kotak */
 }
 
 .container {
