@@ -12,6 +12,7 @@ body {
     animation: gradientBG 15s ease infinite;
     color: #27272a;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -23,6 +24,16 @@ body {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+}
+
+/* GAYA UNTUK GAMBAR CHIBI DI ATAS KOTAK */
+.img-di-atas-kotak {
+    display: block;
+    width: 250px;            /* Mengatur ukuran lebar gambar chibi */
+    height: auto;
+    margin-bottom: -1px;    /* Menarik gambar ke bawah sedikit agar menempel dengan kotak */
+    position: relative;
+    z-index: 50;             /* Membuat gambar berada di lapisan atas bayangan kotak */
 }
 
 .container {
